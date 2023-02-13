@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div >
+        <button id="modalBtn" onclick="displayModal()">
+            Subscribe
+        </button>
+    </div>
+    <div id="container">
+        <div id="head">
+            <div>Subscription</div>
+        </div>
+        <div id="box">
+            <div id="text">Name</div>
+            <input id="name"/>
+        </div>
+        <div id="check">
+            <input type="checkbox" />
+            <div id="text">Like</div>
+        </div>
+        <div id="check">
+            <input type="checkbox" />
+            <div id="text">Comment</div>
+        </div>
+        <div id="check">
+            <input type="checkbox" />
+            <div id="text">Follow</div>
+        </div>
+        <div id="submitButton">
+            <button id="sBtn" onclick="submitModal()">
+                Submit
+            </button>
+        </div>
+    </div>
+    <div id="endText">
+        ThankYou !!!
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

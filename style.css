@@ -1,0 +1,63 @@
+:root{
+    --modalDisplay: none;
+    --modalBtn : block;
+    --thankText : none;
+}
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#modalBtn{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    background-color:#5a009c ;
+    border-radius: 3px;
+    color: white;
+    display: var(--modalBtn);
+}
+#head{
+    font-size: larger;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#container{
+    background-color: whitesmoke;
+    height: 220px;
+    width: 250px;
+    border-radius: 5px;
+    display: var(--modalDisplay);
+}
+#box{
+    margin:10px;
+}
+#name{
+    width: 220px;
+}
+#text{
+    font-size: large;
+}
+#check{
+    display: flex;
+    margin: 10px;
+}
+#submitButton{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+#sBtn{
+    background-color: #5a009c;
+    color: white;
+    border-radius: 3px;
+}
+#endText{
+    font-size: larger;
+    color: white;
+    display: var(--thankText);
+}
